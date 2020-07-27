@@ -23,7 +23,7 @@
    int Q4[x][y]; //x!=m!=i!=r y!=n!=k!=l; 并且不能再同一条斜线上
    ```
 3. 为了方便比较是否在同一行,同一列,同一斜线上,我们可以写出如下方法
-```c
+```C
 int isCorrect(int i, int j, int (*Q)[4]) //i,j 分别是行和列,Q是棋盘
 {
     int s, t;
@@ -48,6 +48,7 @@ int isCorrect(int i, int j, int (*Q)[4]) //i,j 分别是行和列,Q是棋盘
 
     return 1;//否则返回
 }
+
 ```
 
 ## 回溯法:
